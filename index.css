@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #361500;
+}
+
+#dmnavbar-brand {
+	height: 3rem;
+	width: 10rem;
+}
+
+nav {
+	font-family: 'Secular One', sans-serif;
+	font-weight: bold;
+}
+
+a:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 1rem;
+	color: #CC9544;
+}
+
+body {
+	font-family: 'Sono', sans-serif;
+}
+
+.navbar {
+	background-color: #D7A86E;
+}
+
+#project-card {
+	background-color: #603601;
+}
+
+#projects {
+	color: #FBF2CF;
+}
+
+div.card {
+	width: 18rem;
+	align-content: center;
+}
+
+a.button {
+	background-color: #CC9544 ;
+	color: #1C0A00;
+	font-weight: bold;
+	border-radius: 1rem;
+}
+
+#fb-account {
+	color: #1C0A00;
+}
+
+#googlemaps {
+	width: 600;
+	height: 450;
+	border: 0;
+}
+
+#location {
+	padding: 3rem;
+	background-color: #FFEBC1;
+}
