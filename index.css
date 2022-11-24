@@ -4,14 +4,8 @@
 	color: #361500;
 }
 
-#dmnavbar-brand {
-	height: 3rem;
-	width: 10rem;
-}
-
-nav {
-	font-family: 'Secular One', sans-serif;
-	font-weight: bold;
+body {
+	font-family: 'Sono', sans-serif;
 }
 
 a:hover {
@@ -20,26 +14,40 @@ a:hover {
 	color: #CC9544;
 }
 
-body {
-	font-family: 'Sono', sans-serif;
+/*	Navbar here	*/
+
+nav {
+	font-family: 'Secular One', sans-serif;
+	font-weight: bold;
+}
+
+#dmnavbar-brand {
+	height: 3rem;
+	width: 10rem;
 }
 
 .navbar {
 	background-color: #D7A86E;
 }
 
-#project-card {
-	background-color: #603601;
+#home {
+	background-color: #D7A86E;
 }
 
-#projects {
-	color: #FBF2CF;
+/*Projects here*/
+
+.toggle {
+	background-color: sandybrown;
+	border: 0;
+	border-radius: 1rem;
+	padding: 1rem;
+	font-weight: bold;
 }
 
-div.card {
+/*div.card {
 	width: 18rem;
 	align-content: center;
-}
+}*/
 
 a.button {
 	background-color: #CC9544 ;
@@ -48,9 +56,23 @@ a.button {
 	border-radius: 1rem;
 }
 
+/*#project-card {
+	height: 35rem;
+	padding-top: 3rem;
+}*/
+
+/*Home here*/
+
 #fb-account {
 	color: #1C0A00;
 }
+
+form {
+	background-color: #C19065;
+	font-weight: bold;
+}
+
+/**/
 
 #googlemaps {
 	width: 600;
@@ -60,5 +82,9 @@ a.button {
 
 #location {
 	padding: 3rem;
-	background-color: #FFEBC1;
+	/*background-color: #FFEBC1;*/
+}
+
+footer {
+	background-color: #D7A86E;
 }
