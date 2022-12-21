@@ -5,7 +5,7 @@
 }
 
 body {
-	font-family: 'Sono', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 a:hover {
@@ -26,12 +26,53 @@ nav {
 	width: 10rem;
 }
 
+nav.navbar {
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+
 .navbar {
 	background-color: #D7A86E;
 }
 
+/*Home here*/
+
 #home {
-	background-color: #D7A86E;
+	background-color: #f4a460;
+}
+
+.homeSection {
+	padding-top: 64px;
+}
+
+p.hi, p.intro {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+button.collab {
+	border-radius: 15px;
+	background-color: #fee6b6;
+	font-weight: bold;
+}
+a.collab {
+	color: black;
+}
+
+button a:hover {
+	text-decoration: none;	
+	color: #361500;
+}
+
+/*AboutMe*/
+
+#aboutMe {
+	background-color: #f2b788;
+}
+
+.shortInfo {
+	background-color: #fee6b6;
 }
 
 /*Projects here*/
@@ -44,47 +85,45 @@ nav {
 	font-weight: bold;
 }
 
-/*div.card {
-	width: 18rem;
-	align-content: center;
-}*/
-
-a.button {
-	background-color: #CC9544 ;
-	color: #1C0A00;
-	font-weight: bold;
-	border-radius: 1rem;
-}
-
-/*#project-card {
-	height: 35rem;
-	padding-top: 3rem;
-}*/
-
 /*Home here*/
 
-#fb-account {
-	color: #1C0A00;
+form {
+	background-color: #f4a460;
 }
 
-form {
-	background-color: #C19065;
+.sendMessage {
+	border-radius: 15px;
+	background-color: #fee6b6;
 	font-weight: bold;
+	color: ;
 }
 
 /**/
+#contactMe {
+	background-color: #f4a460;
+}
 
 #googlemaps {
-	width: 600;
-	height: 450;
+	height: 300px;
 	border: 0;
 }
 
-#location {
-	padding: 3rem;
-	/*background-color: #FFEBC1;*/
+#connectWithMe {
+	padding: 2rem;
+}
+
+.linkedInAccount{
+	width: 50px;
+	height: 50px;
+	border: 0;
+	padding: none;
+	margin: none;
 }
 
 footer {
-	background-color: #D7A86E;
+	border-top: 2px solid black;
+}
+#dm-footer-logo {
+	height: 25px;
+	width: 70px;
 }
